@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css"/>
+    <title>Formulário</title>
+    
+</head>
+<body>
+    <form>
+        <h1>Crie uma nova conta<span class="tittle-dot">.</span></h1>
+        <div class="row">
+        <label class="input-container" >
+            Nome
+            <input name="nome" placeholder="Digite seu nome">
+        </label>
+        <label class="input-container">
+            Sobrenome
+            <input name="sobrenome" placeholder="Digite seu sobrenome">
+        </label>
+        </div>
+        <div class="row">
+        <label class="input-container">
+            Email
+            <input name="email" placeholder="exemple@email.com" type="email">
+        </label>
+        </div>
+        <div class="row">
+        <label class="input-container">
+            Senha
+            <input name="senha" placeholder="Digite sua senha" type="password">
+        </label>
+        </div>
+        <button class="reset-button" type="reset">Limpar</button>
+        <button id="submit-button" type="submit">Cadastrar</button>
+    </form> 
+    <script src="index.js"></script>   
+</body>
+</html>
+
